@@ -7,14 +7,13 @@
                 <input class="ml-2 outline-none bg-transparent font-" type="text" name="search" id="search" placeholder="Search..." />
             </div>
             <ul class="flex items-center space-x-6">
-                <li class="font-semibold text-gray-700">Home</li>
-                <li class="font-semibold text-gray-700">Articles</li>
-                <li>
-                    @includeIf('SVGs.graduationHat')
-                </li>
-                <li>
-                    @includeIf('SVGs.alert')
-                </li>
+
+                @foreach(Statamic::tag('nav:main_navigation') as $item)
+                    <li class="font-semibold text-gray-700 cursor-pointer">
+                        <a href="{{ $item['url'] }}">{{ $item['title'] }}</a>
+                    </li>
+                @endforeach
+                
                 <li>
                     @includeIf('SVGs.book')
                 </li>
