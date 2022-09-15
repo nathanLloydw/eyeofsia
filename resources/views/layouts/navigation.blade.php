@@ -9,14 +9,20 @@
             <ul class="flex items-center space-x-6">
 
                 @foreach(Statamic::tag('nav:main_navigation') as $item)
-                    <li class="font-semibold text-gray-700 cursor-pointer">
-                        <a href="{{ $item['url'] }}">{{ $item['title'] }}</a>
-                    </li>
+
+                    @if($item['icon_only']->value())
+
+                        @php ($icon = $item['icon']->value())
+                        @includeIf("SVGs.$icon")
+
+                    @else
+                        <li class="font-semibold text-gray-700 cursor-pointer">
+                            <a href="{{ $item['url'] }}">{{ $item['title'] }}</a>
+                        </li>
+                    @endif
+
                 @endforeach
-                
-                <li>
-                    @includeIf('SVGs.book')
-                </li>
+
             </ul>
         </div>
     </div>

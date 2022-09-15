@@ -8,3 +8,10 @@ tree:
   -
     id: 0ff69332-50de-4a1e-90f9-49e3c30ab777
     entry: 180f832b-04c5-4a8c-80ca-4b67d0c077b8
+  -
+    id: f43fc150-8027-4e6b-9195-193bdfc630b1
+    title: Articles
+    url: /articles
+    data:
+      icon_only: true
+      icon: book
