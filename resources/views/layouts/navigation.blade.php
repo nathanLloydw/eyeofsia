@@ -1,6 +1,6 @@
 <nav class="px-20 py-6 items-center bg-white shadow-md">
     <div class="flex justify-between max-w-screen-xl m-auto">
-        <h1 class="text-xl text-gray-800 font-bold">{{ $company_details['company_name'] }}</h1>
+        <h1 class="text-xl text-gray-800 font-bold cursor-pointer"><a href="/">{{ $company_details['company_name'] }}</a></h1>
         <div class="flex items-center">
             <div class="flex items-center">
                 @includeIf('SVGs.search')
@@ -13,7 +13,9 @@
                     @if($item['icon_only']->value())
 
                         @php ($icon = $item['icon']->value())
-                        @includeIf("SVGs.$icon")
+                        <a class="cursor-pointer" href="{{ $item['url'] }}">
+                            @includeIf("SVGs.$icon")
+                        </a>
 
                     @else
                         <li class="font-semibold text-gray-700 cursor-pointer">
