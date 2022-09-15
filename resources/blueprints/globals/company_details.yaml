@@ -1,0 +1,16 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: company_name
+        field:
+          input_type: text
+          antlers: false
+          display: 'Company Name'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false

@@ -1,0 +1,18 @@
+title: Components
+fields:
+  -
+    handle: components
+    field:
+      collapse: false
+      previews: true
+      sets:
+        new_set:
+          display: 'New Set'
+          fields: {  }
+      display: Components
+      type: replicator
+      icon: replicator
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
