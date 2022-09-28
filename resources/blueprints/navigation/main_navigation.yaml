@@ -3,35 +3,4 @@ sections:
     display: Main
     fields:
       -
-        handle: icon_only
-        field:
-          default: false
-          display: 'Icon Only'
-          type: toggle
-          icon: toggle
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-      -
-        handle: icon
-        field:
-          options:
-            alert: Alert
-            book: Book
-            graduationHat: 'Graduation Hat'
-          multiple: false
-          clearable: false
-          searchable: true
-          taggable: false
-          push_tags: false
-          cast_booleans: false
-          display: Icon
-          type: select
-          icon: select
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-          if:
-            icon_only: 'equals true'
+        import: icon

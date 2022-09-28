@@ -1,0 +1,68 @@
+sections:
+  main:
+    display: 'Theme Colours'
+    fields:
+      -
+        handle: primary_colour
+        field:
+          theme: classic
+          lock_opacity: false
+          default_color_mode: HEXA
+          color_modes:
+            - hex
+          display: 'Primary Colour'
+          type: color
+          icon: color
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+          width: 25
+      -
+        handle: secondary_colour
+        field:
+          theme: classic
+          lock_opacity: false
+          default_color_mode: HEXA
+          color_modes:
+            - hex
+          display: 'Secondary Colour'
+          type: color
+          icon: color
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+          width: 25
+      -
+        handle: support_colour
+        field:
+          theme: classic
+          lock_opacity: false
+          default_color_mode: HEXA
+          color_modes:
+            - hex
+          display: 'Support Colour'
+          type: color
+          icon: color
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+          width: 25
+      -
+        handle: background_colour
+        field:
+          theme: classic
+          lock_opacity: false
+          default_color_mode: HEXA
+          color_modes:
+            - hex
+          display: 'Background Colour'
+          type: color
+          icon: color
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+          width: 25

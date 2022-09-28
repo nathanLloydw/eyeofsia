@@ -1,0 +1,87 @@
+sections:
+  main:
+    display: 'Primary Navigation'
+    fields:
+      -
+        handle: company_logo
+        field:
+          mode: list
+          container: images
+          restrict: false
+          allow_uploads: true
+          show_filename: true
+          max_files: 1
+          display: 'Company Logo'
+          type: assets
+          icon: assets
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+          width: 33
+      -
+        handle: links_direction
+        field:
+          options:
+            right: Right
+            left: Left
+          multiple: false
+          max_items: 1
+          clearable: false
+          searchable: true
+          taggable: false
+          push_tags: false
+          cast_booleans: false
+          default: right
+          display: 'Links Direction'
+          type: select
+          icon: select
+          width: 33
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
+        handle: sticky
+        field:
+          default: false
+          display: Sticky
+          type: toggle
+          icon: toggle
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+          width: 33
+  footer_navigation:
+    display: 'Footer Navigation'
+    fields:
+      -
+        handle: footer_company_logo
+        field:
+          mode: list
+          container: images
+          restrict: false
+          allow_uploads: true
+          show_filename: true
+          display: 'Company Logo'
+          type: assets
+          icon: assets
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+          width: 50
+          max_files: 1
+      -
+        handle: footer_sticky
+        field:
+          default: false
+          display: Sticky
+          type: toggle
+          icon: toggle
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+          width: 50

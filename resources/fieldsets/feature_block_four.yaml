@@ -1,0 +1,79 @@
+title: 'Feature Block Four'
+fields:
+  -
+    handle: features
+    field:
+      collapse: false
+      previews: true
+      sets:
+        feature:
+          display: Feature
+          fields:
+            -
+              import: icon
+            -
+              handle: feature_title
+              field:
+                input_type: text
+                antlers: false
+                display: 'Feature Title'
+                type: text
+                icon: text
+                listable: hidden
+                instructions_position: above
+                visibility: visible
+                always_save: false
+            -
+              handle: feature_context
+              field:
+                antlers: false
+                display: 'Feature Context'
+                type: textarea
+                icon: textarea
+                listable: hidden
+                instructions_position: above
+                visibility: visible
+                always_save: false
+            -
+              handle: read_more_url
+              field:
+                input_type: text
+                antlers: false
+                display: 'Read More URL'
+                type: text
+                icon: text
+                listable: hidden
+                instructions_position: above
+                visibility: visible
+                always_save: false
+      display: Features
+      type: replicator
+      icon: replicator
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+  -
+    handle: button_text
+    field:
+      input_type: text
+      antlers: false
+      display: 'Button Text'
+      type: text
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+  -
+    handle: button_url
+    field:
+      input_type: text
+      antlers: false
+      display: 'Button URL'
+      type: text
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false

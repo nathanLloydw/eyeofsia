@@ -4,11 +4,16 @@
 
     @includeIf('layouts.navigation')
 
-    @foreach($components as $component)
 
-        @includeIf('components/' .$component['type'])
+    <div class="content flex-grow">
 
-    @endforeach
+        @foreach($components as $component)
+
+            @includeIf('components/' .$component['type'])
+
+        @endforeach
+
+    </div>
 
     @includeIf('layouts.footer')
 

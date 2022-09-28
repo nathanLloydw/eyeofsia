@@ -3,12 +3,89 @@ fields:
   -
     handle: components
     field:
-      collapse: false
+      collapse: true
       previews: true
       sets:
-        new_set:
-          display: 'New Set'
-          fields: {  }
+        hero_block_one:
+          display: 'Hero Block One'
+          fields:
+            -
+              import: hero_block_one
+        hero_block_two:
+          display: 'Hero Block Two'
+          fields:
+            -
+              import: hero_block_two
+        pricing_block_one:
+          display: 'Pricing Block One'
+          fields:
+            -
+              import: pricing_block_one
+        testimonials_block_one:
+          display: 'Testimonials Block One'
+          fields:
+            -
+              import: testimonials_block_one
+        testimonials_block_two:
+          display: 'Testimonials Block Two'
+          fields:
+            -
+              import: testimonials_block_two
+        call_to_action_block_one:
+          display: 'Call To Action Block One'
+          fields:
+            -
+              import: call_to_action_block_one
+        call_to_action_block_two:
+          display: 'Call To Action Block Two'
+          fields:
+            -
+              import: call_to_action_block_two
+        contact_block_one:
+          display: 'Contact Block One'
+          fields:
+            -
+              import: contact_block_one
+        contact_block_two:
+          display: 'Contact Block Two'
+          fields:
+            -
+              import: contact_block_two
+        feature_block_one:
+          display: 'Feature Block One'
+          fields:
+            -
+              import: feature_block_one
+        feature_block_two:
+          display: 'Feature Block Two'
+          fields:
+            -
+              import: feature_block_two
+        feature_block_three:
+          display: 'Feature Block Three'
+          fields:
+            -
+              import: feature_block_three
+        feature_block_four:
+          display: 'Feature Block Four'
+          fields:
+            -
+              import: feature_block_four
+        gallery_block_one:
+          display: 'Gallery Block One'
+          fields:
+            -
+              import: gallery_block_one
+        gallery_block_two:
+          display: 'Gallery Block Two'
+          fields:
+            -
+              import: gallery_block_two
+        gallery_block_three:
+          display: 'Gallery Block Three'
+          fields:
+            -
+              import: gallery_block_three
       display: Components
       type: replicator
       icon: replicator

@@ -1,0 +1,5 @@
+title: 'Navigation Settings'
+data:
+  search: true
+  links_direction_with_search: right
+  sticky: true

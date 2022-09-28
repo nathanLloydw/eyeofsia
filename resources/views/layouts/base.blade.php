@@ -8,7 +8,8 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link type='text/css' href="{{ asset('css/app.css') }}" rel="stylesheet">
+    @include('styles.custom_variables')
 
     <!-- Fonts -->
 
@@ -17,7 +18,7 @@
 
 </head>
 
-<body class="bg-gray-100">
+<body>
     <div id="app">
         @yield('content')
     </div>

@@ -3,3 +3,35 @@
 @tailwind utilities;
 
 html, body { @apply w-full h-full; }
+
+#app { @apply h-full flex flex-col justify-between; }
+
+.content h1, .content h2, .content h3, .content h4, .content h5, .content h6 { @apply text-center text-gray-800 }
+.content h1 { @apply font-black leading-7 md:leading-10 text-2xl lg:text-3xl xl:text-5xl; }
+.content h2 { @apply font-black leading-6 md:leading-8 font-extrabold text-base md:text-lg lg:text-xl xl:text-4xl; }
+.content h3 { @apply font-black leading-6 md:leading-8 font-extrabold text-base lg:text-lg xl:text-2xl; }
+.content h4 { @apply font-bold text-lg; }
+.content h5 { @apply font-semibold tracking-wider text-sm; }
+.content h6 { @apply font-semibold tracking-widest text-xs; }
+
+.content h1 strong, .content h2 strong, .content h3 strong, .content h4 strong { @apply text-primary; }
+
+.content p { @apply text-gray-400 font-normal text-center text-xs sm:text-sm leading-6; }
+
+.content button
+{
+    @apply focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary transition duration-150 ease-in-out
+    lg:text-xl lg:font-bold rounded-lg px-4 sm:px-10 border border-primary py-2 text-xs;
+}
+
+.content button.primary { @apply bg-primary text-white; }
+.content button.secondary { @apply bg-transparent text-primary; }
+
+.content form input[type="text"],
+.content form input[type="email"],
+.content form textarea
+{
+    @apply w-full rounded border border-gray-300 focus:border-primary focus:ring-1 focus:ring-secondary
+    text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out
+    placeholder-gray-300 bg-transparent
+}

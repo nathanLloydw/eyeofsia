@@ -14,3 +14,82 @@ sections:
           instructions_position: above
           visibility: visible
           always_save: false
+          width: 33
+      -
+        handle: address
+        field:
+          input_type: text
+          antlers: false
+          display: Address
+          type: text
+          icon: text
+          width: 33
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
+        handle: postcode
+        field:
+          input_type: text
+          antlers: false
+          display: Postcode
+          type: text
+          icon: text
+          width: 33
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
+        handle: facebook
+        field:
+          input_type: text
+          antlers: false
+          display: Facebook
+          type: text
+          icon: text
+          width: 25
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
+        handle: twitter
+        field:
+          input_type: text
+          antlers: false
+          display: Twitter
+          type: text
+          icon: text
+          width: 25
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
+        handle: instagram
+        field:
+          input_type: text
+          antlers: false
+          display: Instagram
+          type: text
+          icon: text
+          width: 25
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
+        handle: linkedin
+        field:
+          input_type: text
+          antlers: false
+          display: LinkedIn
+          type: text
+          icon: text
+          width: 25
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false

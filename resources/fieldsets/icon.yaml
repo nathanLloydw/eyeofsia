@@ -1,0 +1,35 @@
+title: Icon
+fields:
+  -
+    handle: icon
+    field:
+      options:
+        alert: Alert
+        book: Book
+        clock: Clock
+        code: Code
+        computer: Computer
+        graduationHat: 'Graduation Hat'
+        quote: Quote
+        search: Search
+        tick: Tick
+        facebook: Facebook
+        instagram: Instagram
+        twitter: Twitter
+        pulse: Pulse
+        scissors: Scissors
+        user: User
+      multiple: false
+      max_items: 1
+      clearable: false
+      searchable: true
+      taggable: false
+      push_tags: false
+      cast_booleans: false
+      display: Icon
+      type: select
+      icon: select
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false

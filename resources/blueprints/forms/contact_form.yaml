@@ -1,0 +1,51 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: name
+        field:
+          input_type: text
+          antlers: false
+          display: Name
+          type: text
+          icon: text
+          listable: true
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
+        handle: email
+        field:
+          input_type: text
+          antlers: false
+          display: Email
+          type: text
+          icon: text
+          listable: true
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
+        handle: message
+        field:
+          antlers: false
+          display: Message
+          type: textarea
+          icon: textarea
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
+        handle: origin
+        field:
+          input_type: text
+          antlers: false
+          display: Origin
+          type: text
+          icon: text
+          listable: true
+          instructions_position: above
+          visibility: visible
+          always_save: false

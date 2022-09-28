@@ -1,0 +1,85 @@
+title: 'Feature Block Two'
+fields:
+  -
+    handle: label
+    field:
+      input_type: text
+      antlers: false
+      display: Label
+      type: text
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+  -
+    handle: header
+    field:
+      always_show_set_button: false
+      previews: true
+      buttons:
+        - h1
+        - h2
+        - h3
+        - h4
+        - bold
+      save_html: false
+      toolbar_mode: fixed
+      link_noopener: false
+      link_noreferrer: false
+      target_blank: false
+      reading_time: false
+      fullscreen: true
+      allow_source: true
+      enable_input_rules: true
+      enable_paste_rules: true
+      antlers: false
+      remove_empty_nodes: false
+      display: Header
+      type: bard
+      icon: bard
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+  -
+    handle: features
+    field:
+      collapse: false
+      previews: true
+      sets:
+        feature:
+          display: Feature
+          fields:
+            -
+              handle: feature_title
+              field:
+                input_type: text
+                antlers: false
+                display: 'Feature Title'
+                type: text
+                icon: text
+                listable: hidden
+                instructions_position: above
+                visibility: visible
+                always_save: false
+            -
+              handle: feature_context
+              field:
+                antlers: false
+                display: 'Feature Context'
+                type: textarea
+                icon: textarea
+                listable: hidden
+                instructions_position: above
+                visibility: visible
+                always_save: false
+            -
+              import: icon
+      display: Features
+      type: replicator
+      icon: replicator
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
