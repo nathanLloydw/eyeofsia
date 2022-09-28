@@ -1,1 +1,40 @@
-{  }
+tree:
+  -
+    id: 16737dc5-7dc6-4449-a779-1f661df07bd7
+    title: Resources
+    url: '#'
+    children:
+      -
+        id: 0d585277-0f0b-4bc9-8389-0b993a9ec554
+        title: 'tmp 1'
+        url: '#'
+      -
+        id: a14680cf-4079-4050-b485-3ea3f029098b
+        title: 'tmp 2'
+        url: '#'
+  -
+    id: 613db408-3586-4fe5-b531-ed3a7bd44c83
+    title: 'Follow us'
+    url: '#'
+    children:
+      -
+        id: 8e7450e6-86c0-49f2-b0c9-812450d76dde
+        title: 'tmp 3'
+        url: '#'
+      -
+        id: 3bb6dcbf-f7c5-4952-b224-1a92fd4fedbf
+        title: 'tmp 4'
+        url: '#'
+  -
+    id: bcb3bfcd-297a-46db-8100-4e76f54d1910
+    title: Legal
+    url: '#'
+    children:
+      -
+        id: 14ac5e94-53d2-41aa-a077-0f40bfca0635
+        title: 'tmp 5'
+        url: '#'
+      -
+        id: 4685327d-b69a-4725-8311-48cf40af7e55
+        title: 'tmp 6'
+        url: '#'
