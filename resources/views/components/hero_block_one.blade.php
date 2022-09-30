@@ -2,7 +2,7 @@
 
     @if($component['image_location']->value() == 'left')
         <div class="w-full lg:w-1/2 lg:px-8 flex items-center">
-            <img src="{{ $component['hero_image']['permalink'] }}">
+            <img class="m-auto" src="{{ $component['hero_image']['permalink'] }}">
         </div>
     @endif
 
@@ -25,7 +25,7 @@
 
     @if($component['image_location']->value() == 'right')
         <div class="w-full lg:w-1/2 px-6 lg:px-8 flex items-center">
-            <img src="{{ $component['hero_image']['permalink'] }}">
+            <img class="m-auto" src="{{ $component['hero_image']['permalink'] }}">
         </div>
     @endif
 

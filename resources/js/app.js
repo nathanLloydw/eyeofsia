@@ -3,6 +3,8 @@ require('./bootstrap')
 import { createApp } from 'vue'
 import component from "./components/component.vue";
 import '../css/app.css';
+import navigation_menu from './scripts/navigation_menu';
+import navigation_shrink from './scripts/navigation_shrink';
 
 const app = createApp({})
 
@@ -11,13 +13,3 @@ app.component('component', component)
 app.mount('#app')
 
 
-window.onload = function()
-{
-    const btn = document.querySelector("#menu-btn");
-    const menu = document.querySelector("#menu");
-
-    btn.addEventListener("click", () => {
-        console.log('click');
-        menu.classList.toggle("hidden");
-    });
-}

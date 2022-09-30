@@ -1,6 +1,7 @@
 
-<nav @class(['px-10 lg:px-20 py-4 lg:py-2 items-center bg-white shadow-md',
-             'sticky top-0 z-50'=>$navigation_settings['sticky'] ])>
+<nav @class(['px-10 lg:px-20 py-4 items-center bg-white shadow-md',
+             'sticky top-0 z-50'=>$navigation_settings['sticky'],
+             'md:py-6 transition-all shrink-nav'=>$navigation_settings['shrinkable']])>
 
     <div @class(['container mx-auto flex flex-wrap items-center',
             'justify-between'=>$navigation_settings['links_direction'] == 'right',

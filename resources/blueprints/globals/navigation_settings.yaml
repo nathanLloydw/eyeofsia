@@ -18,7 +18,7 @@ sections:
           instructions_position: above
           visibility: visible
           always_save: false
-          width: 33
+          width: 25
       -
         handle: links_direction
         field:
@@ -36,7 +36,7 @@ sections:
           display: 'Links Direction'
           type: select
           icon: select
-          width: 33
+          width: 25
           listable: hidden
           instructions_position: above
           visibility: visible
@@ -52,7 +52,21 @@ sections:
           instructions_position: above
           visibility: visible
           always_save: false
-          width: 33
+          width: 25
+      -
+        handle: shrinkable
+        field:
+          default: false
+          display: Shrinkable
+          type: toggle
+          icon: toggle
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+          if:
+            sticky: 'equals true'
+          width: 25
   footer_navigation:
     display: 'Footer Navigation'
     fields:
