@@ -3,5 +3,6 @@ data:
   company_logo: logo-placeholder-image.png
   links_direction: right
   sticky: true
+  shrinkable: false
   footer_company_logo: logo-placeholder-image.png
   footer_sticky: false

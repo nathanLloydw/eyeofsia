@@ -3,10 +3,10 @@ id: f85e4dc8-2bf9-4895-9ed7-c415bf89397a
 blueprint: page
 title: 'Hero Blocks'
 updated_by: 2
-updated_at: 1664120969
+updated_at: 1664557103
 components:
   -
-    hero_image: desktop_hero_image.png
+    hero_image: icon-256x256.png
     image_location: left
     header:
       -
@@ -41,7 +41,7 @@ components:
     type: hero_block_one
     enabled: true
   -
-    hero_image: desktop_hero_image.png
+    hero_image: child-1837375__340.webp
     image_location: right
     header:
       -
