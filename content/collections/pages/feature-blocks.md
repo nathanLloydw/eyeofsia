@@ -2,8 +2,8 @@
 id: ce6dcd22-eaae-422e-9abd-b01354ee3a3a
 blueprint: page
 title: 'Feature Blocks'
-updated_by: 2
-updated_at: 1664133337
+updated_by: 1
+updated_at: 1672932630
 components:
   -
     header:
@@ -52,7 +52,7 @@ components:
         icon: computer
         type: feature
         enabled: true
-    image: austin-distel-jp-hw8ndw-j-q-unsplash-1.png
+    image: p1100706-2.jpg
     type: feature_block_one
     enabled: true
   -

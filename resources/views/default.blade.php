@@ -6,7 +6,7 @@
 
 
     <div class="content flex-grow">
-
+        @include('components/navigation_hero_block')
         @foreach($components as $component)
 
             @includeIf('components/' .$component['type'])

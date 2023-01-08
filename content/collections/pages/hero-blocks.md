@@ -2,11 +2,11 @@
 id: f85e4dc8-2bf9-4895-9ed7-c415bf89397a
 blueprint: page
 title: 'Hero Blocks'
-updated_by: 2
-updated_at: 1664557103
+updated_by: 1
+updated_at: 1672932368
 components:
   -
-    hero_image: icon-256x256.png
+    hero_image: p1100706-2.jpg
     image_location: left
     header:
       -
@@ -41,7 +41,6 @@ components:
     type: hero_block_one
     enabled: true
   -
-    hero_image: child-1837375__340.webp
     image_location: right
     header:
       -
@@ -75,8 +74,8 @@ components:
         button_link: '#'
         type: button
         enabled: true
+    hero_image: p1100706-2.jpg
   -
-    hero_image: austin-distel-jp-hw8ndw-j-q-unsplash-1.png
     image_location: left
     header:
       -
@@ -118,6 +117,7 @@ components:
         enabled: true
     type: hero_block_one
     enabled: true
+    hero_image: p1100706-2.jpg
   -
     type: hero_block_two
     enabled: true

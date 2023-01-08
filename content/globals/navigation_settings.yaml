@@ -1,8 +1,28 @@
 title: 'Navigation Settings'
 data:
-  company_logo: logo-placeholder-image.png
   links_direction: right
   sticky: true
   shrinkable: false
-  footer_company_logo: logo-placeholder-image.png
+  nav_controlled_header: true
+  navigation_hero:
+    -
+      image:
+        - p1100706-2.jpg
+      type: navigation_hero_image
+      enabled: true
+    -
+      image:
+        - ayadi-ghaith-dbxdqkfspni-unsplash.jpg
+      type: navigation_hero_image
+      enabled: true
+    -
+      image:
+        - lucia-garo-suxtl0pzwwm-unsplash.jpg
+      type: navigation_hero_image
+      enabled: true
+    -
+      image:
+        - mario-esposito-8pympjx4288-unsplash.jpg
+      type: navigation_hero_image
+      enabled: true
   footer_sticky: false

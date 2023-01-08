@@ -1,8 +1,12 @@
 tree:
   -
+    id: 9b0c3664-de6e-4975-b553-8491f377e2d8
+    entry: e4cc9f35-d499-48a2-9ae1-4ff4a442ad5d
+    title: Home
+  -
     id: 71369334-bc7c-4b7b-8fe7-8d3b42284f4f
     title: Components
-    url: /
+    url: /components
     children:
       -
         id: 5051e35d-4009-4e53-986a-4574dd6a8222
@@ -28,11 +32,11 @@ tree:
         id: aada5396-4143-4be9-b2fe-1e54eb90cfe3
         entry: 3b44685e-cecb-4d76-9a3a-b5547cc23d32
   -
-    id: 9b0c3664-de6e-4975-b553-8491f377e2d8
-    entry: e4cc9f35-d499-48a2-9ae1-4ff4a442ad5d
+    id: f737bcb0-d335-42a9-9dc4-22e6a94a8025
+    entry: 34a673db-e32c-419d-b476-c8fc9b5dc620
   -
-    id: 744e94ee-7bac-49f7-969e-d65de15ab632
-    title: Search
-    url: 'https://www.google.com'
-    data:
-      icon: search
+    id: afd6a641-2965-4028-bd30-3d0d413eb262
+    entry: b51eede8-b88d-4d89-b896-37c17cf83e5a
+  -
+    id: b25157b0-a7f5-4a2b-89cc-dc4af1e08d26
+    entry: 519986ba-4c76-4323-a685-ef4d63f0b62d

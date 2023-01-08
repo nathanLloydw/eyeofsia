@@ -1,4 +1,4 @@
-window.onload = function()
+window.addEventListener("load",function()
 {
     let nav = document.getElementsByClassName('shrink-nav');
 
@@ -6,7 +6,7 @@ window.onload = function()
     {
         window.onscroll = function() {scrollFunction()};
     }
-}
+});
 
 function scrollFunction()
 {
