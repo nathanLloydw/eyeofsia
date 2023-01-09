@@ -6,7 +6,10 @@
 
 
     <div class="content flex-grow">
-        @include('components/navigation_hero_block')
+  
+        @if($page['id'] == 'e4cc9f35-d499-48a2-9ae1-4ff4a442ad5d')
+            @include('components/navigation_hero_block')
+        @endif
         @foreach($components as $component)
 
             @includeIf('components/' .$component['type'])
