@@ -86,20 +86,40 @@
 
                 @foreach(Statamic::tag('nav:main_navigation') as $item)
 
-                    <li class="flex items-center w-full py-2">
-                        <a href="{{ $item['url'] }}"
-                                @class(['w-full block py-2 pr-4 pl-3 rounded lg:p-0 inline-flex justify-between',
-                                        'text-primary'=>$item['is_current'],
-                                        'text-gray-700 hover:text-primary'=> !$item['is_current']])>
+                    @if(count($item['children']) > 0)
+                        <li class="flex flex-col items-center w-full py-2">
+                            <button class="mobile-dropdown-trigger flex justify-center items-center py-2 pr-4 pl-3 w-full font-medium text-gray-700 hover:text-primary">
+                                {{ $item['title'] }}
+                                @includeIf('SVGs.dropdown')
+                            </button>
+                            <!-- Dropdown menu -->
+                            <div class="lg:absolute lg:top-8 w-full hidden z-10 lg:w-44 font-normal bg-white rounded">
+                                <ul class="py-1 text-sm text-gray-700" aria-labelledby="dropdownLargeButton">
+                                    @foreach($item['children'] as $child)
+                                        <li class="dropdown-item hover:text-primary w-full flex justify-center items-center">
+                                            <a href="{{ $child['url'] }}" class="block py-2 px-4">{{ $child['title'] }}</a>
+                                        </li>
+                                    @endforeach
+                                </ul>
+                            </div>
 
-                            <span @class(['whitespace-nowrap m-auto','lg:hidden'=>isset($item['icon']) && $item['icon']->value()->value()])>{{ $item['title'] }}</span>
+                        </li>
+                    @else
+                        <li class="flex items-center w-full py-2">
+                            <a href="{{ $item['url'] }}"
+                                    @class(['w-full block py-2 pr-4 pl-3 rounded lg:p-0 inline-flex justify-between',
+                                            'text-primary'=>$item['is_current'],
+                                            'text-gray-700 hover:text-primary'=> !$item['is_current']])>
 
-                            @if(isset($item['icon']) && $item['icon']->value()->value())
-                                @php ($icon = $item['icon']->value())
-                                @includeIf("SVGs.$icon")
-                            @endif
-                        </a>
-                    </li>
+                                <span @class(['whitespace-nowrap m-auto','lg:hidden'=>isset($item['icon']) && $item['icon']->value()->value()])>{{ $item['title'] }}</span>
+
+                                @if(isset($item['icon']) && $item['icon']->value()->value())
+                                    @php ($icon = $item['icon']->value())
+                                    @includeIf("SVGs.$icon")
+                                @endif
+                            </a>
+                        </li>
+                    @endif
 
                 @endforeach
 
