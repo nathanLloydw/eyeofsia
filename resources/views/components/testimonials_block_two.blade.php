@@ -2,7 +2,7 @@
 
     @foreach($component['testimonials'] as $testimonial)
 
-        <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
+        <div class="lg:w-1/3 lg:mb-0 mb-6 p-4 grow max-w-[50%] m-auto">
             <div class="h-full text-center">
                 <img class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-primary bg-primary" src="{{ $testimonial['individual_thumbnail'] }}">
                 <p>{{ $testimonial['testimonial'] }}</p>

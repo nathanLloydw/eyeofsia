@@ -12,6 +12,8 @@ fields:
       instructions_position: above
       visibility: visible
       always_save: false
+      validate:
+        - required
   -
     handle: postcode
     field:
@@ -24,6 +26,8 @@ fields:
       instructions_position: above
       visibility: visible
       always_save: false
+      validate:
+        - required
   -
     handle: email
     field:
@@ -36,6 +40,8 @@ fields:
       instructions_position: above
       visibility: visible
       always_save: false
+      validate:
+        - required
   -
     handle: phone
     field:
@@ -48,6 +54,8 @@ fields:
       instructions_position: above
       visibility: visible
       always_save: false
+      validate:
+        - required
   -
     handle: form_title
     field:
@@ -60,6 +68,8 @@ fields:
       instructions_position: above
       visibility: visible
       always_save: false
+      validate:
+        - required
   -
     handle: form_context
     field:
@@ -72,6 +82,8 @@ fields:
       instructions_position: above
       visibility: visible
       always_save: false
+      validate:
+        - required
   -
     handle: form_confirmation_button
     field:
@@ -84,6 +96,8 @@ fields:
       instructions_position: above
       visibility: visible
       always_save: false
+      validate:
+        - required
   -
     handle: form_confirmation_smallprint
     field:
@@ -96,3 +110,5 @@ fields:
       instructions_position: above
       visibility: visible
       always_save: false
+      validate:
+        - required

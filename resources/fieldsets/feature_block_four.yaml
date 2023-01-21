@@ -53,6 +53,8 @@ fields:
       instructions_position: above
       visibility: visible
       always_save: false
+      validate:
+        - required
   -
     handle: button_text
     field:
@@ -65,6 +67,8 @@ fields:
       instructions_position: above
       visibility: visible
       always_save: false
+      validate:
+        - required
   -
     handle: button_url
     field:
@@ -77,3 +81,5 @@ fields:
       instructions_position: above
       visibility: visible
       always_save: false
+      validate:
+        - required

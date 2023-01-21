@@ -30,6 +30,9 @@ fields:
       instructions_position: above
       visibility: visible
       always_save: false
+      collapse: false
+      validate:
+        - required
   -
     handle: form_context
     field:
@@ -42,6 +45,8 @@ fields:
       instructions_position: above
       visibility: visible
       always_save: false
+      validate:
+        - required
   -
     handle: form_confirmation_button
     field:
@@ -54,6 +59,8 @@ fields:
       instructions_position: above
       visibility: visible
       always_save: false
+      validate:
+        - required
   -
     handle: email
     field:
@@ -66,6 +73,8 @@ fields:
       instructions_position: above
       visibility: visible
       always_save: false
+      validate:
+        - required
   -
     handle: address
     field:
@@ -78,3 +87,5 @@ fields:
       instructions_position: above
       visibility: visible
       always_save: false
+      validate:
+        - required

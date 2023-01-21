@@ -12,6 +12,8 @@ fields:
       instructions_position: above
       visibility: visible
       always_save: false
+      validate:
+        - required
   -
     handle: header
     field:
@@ -42,6 +44,9 @@ fields:
       instructions_position: above
       visibility: visible
       always_save: false
+      collapse: false
+      validate:
+        - required
   -
     handle: description
     field:
@@ -53,6 +58,8 @@ fields:
       instructions_position: above
       visibility: visible
       always_save: false
+      validate:
+        - required
   -
     handle: plans
     field:
@@ -104,3 +111,5 @@ fields:
       instructions_position: above
       visibility: visible
       always_save: false
+      validate:
+        - required

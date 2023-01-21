@@ -30,6 +30,9 @@ fields:
       instructions_position: above
       visibility: visible
       always_save: false
+      collapse: false
+      validate:
+        - required
   -
     handle: testimonials
     field:
@@ -50,6 +53,8 @@ fields:
                 instructions_position: above
                 visibility: visible
                 always_save: false
+                validate:
+                  - required
             -
               handle: individual_name
               field:
@@ -62,6 +67,8 @@ fields:
                 instructions_position: above
                 visibility: visible
                 always_save: false
+                validate:
+                  - required
             -
               handle: individual_title
               field:
@@ -74,6 +81,8 @@ fields:
                 instructions_position: above
                 visibility: visible
                 always_save: false
+                validate:
+                  - required
             -
               handle: individual_thumbnail
               field:
@@ -90,6 +99,8 @@ fields:
                 instructions_position: above
                 visibility: visible
                 always_save: false
+                validate:
+                  - required
       display: Testimonials
       type: replicator
       icon: replicator
@@ -97,3 +108,6 @@ fields:
       instructions_position: above
       visibility: visible
       always_save: false
+      max_sets: 3
+      validate:
+        - required

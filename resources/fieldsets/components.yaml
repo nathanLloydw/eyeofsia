@@ -6,11 +6,6 @@ fields:
       collapse: true
       previews: true
       sets:
-        navigation_hero_block:
-          display: 'Navigation Hero Block'
-          fields:
-            -
-              import: navigation_hero_block
         hero_block_one:
           display: 'Hero Block One'
           fields:

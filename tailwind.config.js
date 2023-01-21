@@ -9,7 +9,6 @@ module.exports = {
     extend: {
         colors:
             {
-
                 'primary':'var(--theme-primary)',
                 'secondary':'var(--theme-secondary)',
                 'support':'var(--theme-support)',

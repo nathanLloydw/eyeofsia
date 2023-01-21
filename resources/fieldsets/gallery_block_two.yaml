@@ -67,3 +67,5 @@ fields:
       instructions_position: above
       visibility: visible
       always_save: false
+      validate:
+        - required

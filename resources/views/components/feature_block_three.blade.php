@@ -8,7 +8,7 @@
 
             @php ($icon = $feature['icon']->value())
 
-            <div class="p-4 md:w-1/3 flex">
+            <div class="p-4 md:w-1/3 flex grow max-w-[50%] m-auto">
                 <div class="w-12 h-12 inline-flex flex-wrap items-center justify-center rounded-full bg-support text-primary flex-shrink-0 my-auto">
                     @includeIf("SVGs.$icon")
                 </div>
