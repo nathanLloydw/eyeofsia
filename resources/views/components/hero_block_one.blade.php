@@ -1,4 +1,4 @@
-<section class="container mx-auto lg:flex py-6 px-6 lg:px-14">
+<section class="container mx-auto lg:flex py-6 lg:pt-12 px-6 lg:px-14">
 
     @if($component['image_location']->value() == 'left')
         <div @class(["w-full lg:px-8 flex items-center shrink-0",

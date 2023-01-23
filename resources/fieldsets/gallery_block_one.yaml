@@ -31,8 +31,6 @@ fields:
       visibility: visible
       always_save: false
       collapse: false
-      validate:
-        - required
   -
     handle: context
     field:
@@ -44,8 +42,6 @@ fields:
       instructions_position: above
       visibility: visible
       always_save: false
-      validate:
-        - required
   -
     handle: image_one
     field:
