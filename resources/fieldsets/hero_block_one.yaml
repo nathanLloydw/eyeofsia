@@ -1,6 +1,27 @@
 title: 'Hero Block One'
 fields:
   -
+    handle: block_ratio
+    field:
+      options:
+        50-50: '50%- 50%'
+        75-25: '75% - 25%'
+        66-33: '66% - 33%'
+      multiple: false
+      clearable: false
+      searchable: true
+      taggable: false
+      push_tags: false
+      cast_booleans: false
+      default: 50-50
+      display: 'Block Ratio'
+      type: select
+      icon: select
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+  -
     handle: hero_image
     field:
       mode: list

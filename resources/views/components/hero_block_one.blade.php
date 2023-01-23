@@ -1,12 +1,15 @@
 <section class="container mx-auto lg:flex py-6 px-6 lg:px-14">
 
     @if($component['image_location']->value() == 'left')
-        <div class="w-full lg:w-1/2 lg:px-8 flex items-center">
+        <div @class(["w-full lg:px-8 flex items-center",
+                     'lg:w-1/2'=>$component['block_ratio'] == '50-50',
+                     'lg:w-2/3'=>$component['block_ratio'] == '66-33',
+                     'lg:w-3/4'=>$component['block_ratio'] == '75-25'])>
             <img class="m-auto" src="{{ $component['hero_image']['permalink'] }}">
         </div>
     @endif
 
-    <div class="w-full lg:w-1/2 lg:px-10 m-auto flex flex-col items-center py-6">
+    <div class="w-full lg:w-auto lg:px-10 m-auto flex flex-col items-center py-6">
         <div class="lg:flex justify-center items-center flex-col mb-5 space-y-2">
             {!! $component['header'] !!}
             <p class="mt-4">{!! $component['description'] !!}</p>
@@ -24,7 +27,10 @@
     </div>
 
     @if($component['image_location']->value() == 'right')
-        <div class="w-full lg:w-1/2 px-6 lg:px-8 flex items-center">
+        <div @class(["w-full lg:px-8 flex items-center",
+                     'lg:w-1/2'=>$component['block_ratio'] == '50-50',
+                     'lg:w-1/3'=>$component['block_ratio'] == '66-33',
+                     'lg:w-1/4'=>$component['block_ratio'] == '75-25'])>
             <img class="m-auto" src="{{ $component['hero_image']['permalink'] }}">
         </div>
     @endif

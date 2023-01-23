@@ -50,7 +50,11 @@
                         </li>
                     @else
                         @if($item['last'])
-                            <li class="flex items-center w-full py-2 px-4 border-2 border-gray-900 hover:border-primary">
+                            <li @class(['flex items-center w-full py-2 px-4 border-2 hover:border-primary',
+                                        'border-primary'=>$item['is_current'],
+                                        'border-gray-900'=>!$item['is_current']])
+
+                                    class="">
                                 <a href="{{ $item['url'] }}"
                                         @class(['w-full block py-2 pr-4 pl-3 rounded lg:p-0 inline-flex justify-between',
                                                 'text-white lg:bg-transparent lg:text-primary bg-primary'=>$item['is_current'],
