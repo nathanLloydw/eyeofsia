@@ -21,6 +21,7 @@ fields:
       instructions_position: above
       visibility: visible
       always_save: false
+      width: 50
   -
     handle: hero_image
     field:
@@ -39,6 +40,19 @@ fields:
       max_files: 1
       validate:
         - required
+      width: 50
+  -
+    handle: rounded_image_borders
+    field:
+      default: false
+      display: 'Rounded Image Borders'
+      type: toggle
+      icon: toggle
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false
+      width: 50
   -
     handle: image_location
     field:
@@ -62,8 +76,9 @@ fields:
       always_save: false
       validate:
         - required
+      width: 50
   -
-    handle: header
+    handle: context
     field:
       always_show_set_button: false
       previews: true
@@ -85,7 +100,7 @@ fields:
       enable_paste_rules: true
       antlers: false
       remove_empty_nodes: false
-      display: Header
+      display: context
       type: bard
       icon: bard
       listable: hidden
@@ -95,17 +110,6 @@ fields:
       collapse: false
       validate:
         - required
-  -
-    handle: description
-    field:
-      antlers: false
-      display: Description
-      type: textarea
-      icon: textarea
-      listable: hidden
-      instructions_position: above
-      visibility: visible
-      always_save: false
   -
     handle: buttons
     field:
