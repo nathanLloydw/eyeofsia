@@ -1,4 +1,4 @@
-<section class="container mx-auto px-6 lg:px-14 py-12 lg:py-24 flex flex-wrap items-center">
+<section class="container mx-auto px-6 lg:px-14 py-6 lg:py-12 flex flex-wrap items-center">
 
     <div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
         {!! $component['header'] !!}

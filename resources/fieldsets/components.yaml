@@ -71,6 +71,11 @@ fields:
           fields:
             -
               import: feature_block_four
+        feature_block_five:
+          display: 'Feature Block Five'
+          fields:
+            -
+              import: feature_block_five
         gallery_block_one:
           display: 'Gallery Block One'
           fields:

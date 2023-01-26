@@ -1,4 +1,4 @@
-<section class="container mx-auto px-6 lg:px-10 py-12 lg:py-24">
+<section class="container mx-auto px-6 lg:px-10 py-6 py-12 lg:py-12">
 
     {!! $component['header'] !!}
 
