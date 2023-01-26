@@ -7,7 +7,7 @@
 
     <div class="flex flex-wrap pt-16">
         @foreach($component['features'] as $feature)
-            <div class="w-full md:w-1/3 grow p-4 md:py-0">
+            <div class="w-full md:w-1/3 grow py-4 md:p-4 md:py-0">
 
                 <img class="cursor-pointer" src="{{$feature['feature_image']->url}}">
                 <div class="text-center">
