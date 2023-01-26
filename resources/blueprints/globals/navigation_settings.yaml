@@ -129,7 +129,7 @@ sections:
           instructions_position: above
           visibility: visible
           always_save: false
-          width: 50
+          width: 33
           max_files: 1
       -
         handle: footer_sticky
@@ -142,4 +142,16 @@ sections:
           instructions_position: above
           visibility: visible
           always_save: false
-          width: 50
+          width: 33
+      -
+        handle: show_footer_navigation
+        field:
+          default: true
+          display: 'Show Footer Navigation'
+          type: toggle
+          icon: toggle
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+          width: 33
