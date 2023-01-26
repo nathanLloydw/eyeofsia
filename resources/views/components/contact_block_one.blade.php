@@ -2,7 +2,7 @@
 
     <div class="w-full lg:w-2/3 rounded-lg overflow-hidden p-10 flex items-end justify-start relative">
         <iframe width="100%" height="100%" class="absolute inset-0" title="map" src="https://maps.google.com/maps?q={{ $component['postcode'] }}&z=15&output=embed"></iframe>
-        <div class="bg-white relative opacity-0 lg:opacity-100 flex flex-wrap py-6 rounded shadow-md w-[inherit]">
+        <div class="bg-white relative opacity-0 lg:opacity-100 flex flex-wrap py-6 rounded shadow-md w-full">
             <div class="lg:w-1/2 px-6">
                 <h6>ADDRESS</h6>
                 <p class="mt-1">{{ $component['address'] }}</p>

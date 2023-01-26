@@ -16,6 +16,11 @@ fields:
           fields:
             -
               import: hero_block_two
+        hero_block_three:
+          display: 'Hero Block Three'
+          fields:
+            -
+              import: hero_block_three
         pricing_block_one:
           display: 'Pricing Block One'
           fields:
