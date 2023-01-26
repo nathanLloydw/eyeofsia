@@ -12,12 +12,12 @@ function scrollFunction()
 {
     let nav = document.getElementsByClassName('shrink-nav');
 
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100)
+    if (document.documentElement.scrollTop > 104)
     {
         nav[0].classList.remove('md:py-6');
         nav[0].classList.add('md:py-2');
     }
-    else
+    else if(document.documentElement.scrollTop < 75)
     {
         nav[0].classList.remove('md:py-2');
         nav[0].classList.add('md:py-6');
