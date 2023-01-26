@@ -9,7 +9,7 @@
 
         <div class="lg:w-1/3 sm:w-1/2 p-2">
             <div class="flex relative">
-                <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="{{ $component['images'][0]['image']['permalink'] ?? 'https://dummyimage.com/600x360' }}">
+                <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center aspect-[1.67/1]" src="{{ $component['images'][0]['image']['permalink'] ?? 'https://dummyimage.com/600x360' }}">
                 <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                     <h5 class="tracking-widest text-primary mb-1">{{ $component['images'][0]['image_subtitle'] }}</h5>
                     <h4 class="mb-3">{{ $component['images'][0]['image_title'] }}</h4>
@@ -19,7 +19,7 @@
         </div>
         <div class="lg:w-1/3 sm:w-1/2 p-2">
             <div class="flex relative">
-                <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="{{ $component['images'][1]['image']['permalink'] ?? 'https://dummyimage.com/601x361' }}">
+                <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center aspect-[1.67/1]" src="{{ $component['images'][1]['image']['permalink'] ?? 'https://dummyimage.com/601x361' }}">
                 <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                     <h5 class="tracking-widest text-primary mb-1">{{ $component['images'][1]['image_subtitle'] }}</h5>
                     <h4 class="mb-3">{{ $component['images'][1]['image_title'] }}</h4>
@@ -29,7 +29,7 @@
         </div>
         <div class="lg:w-1/3 sm:w-1/2 p-2">
             <div class="flex relative">
-                <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="{{ $component['images'][2]['image']['permalink'] ?? 'https://dummyimage.com/603x363' }}">
+                <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center aspect-[1.67/1]" src="{{ $component['images'][2]['image']['permalink'] ?? 'https://dummyimage.com/603x363' }}">
                 <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                     <h5 class="tracking-widest text-primary mb-1">{{ $component['images'][2]['image_subtitle'] }}</h5>
                     <h4 class="mb-3">{{ $component['images'][2]['image_title'] }}</h4>
@@ -39,7 +39,7 @@
         </div>
         <div class="lg:w-1/3 sm:w-1/2 p-2">
             <div class="flex relative">
-                <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="{{ $component['images'][3]['image']['permalink'] ?? 'https://dummyimage.com/602x362' }}">
+                <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center aspect-[1.67/1]" src="{{ $component['images'][3]['image']['permalink'] ?? 'https://dummyimage.com/602x362' }}">
                 <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                     <h5 class="tracking-widest text-primary mb-1">{{ $component['images'][3]['image_subtitle'] }}</h5>
                     <h4 class="mb-3">{{ $component['images'][3]['image_title'] }}</h4>
@@ -49,7 +49,7 @@
         </div>
         <div class="lg:w-1/3 sm:w-1/2 p-2">
             <div class="flex relative">
-                <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="{{ $component['images'][4]['image']['permalink'] ?? 'https://dummyimage.com/605x365' }}">
+                <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center aspect-[1.67/1]" src="{{ $component['images'][4]['image']['permalink'] ?? 'https://dummyimage.com/605x365' }}">
                 <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                     <h5 class="tracking-widest text-primary mb-1">{{ $component['images'][4]['image_subtitle'] }}</h5>
                     <h4 class="mb-3">{{ $component['images'][4]['image_title'] }}</h4>
@@ -59,7 +59,7 @@
         </div>
         <div class="lg:w-1/3 sm:w-1/2 p-2">
             <div class="flex relative">
-                <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="{{ $component['images'][5]['image']['permalink'] ?? 'https://dummyimage.com/606x366' }}">
+                <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center aspect-[1.67/1]" src="{{ $component['images'][5]['image']['permalink'] ?? 'https://dummyimage.com/606x366' }}">
                 <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                     <h5 class="tracking-widest text-primary mb-1">{{ $component['images'][5]['image_subtitle'] }}</h5>
                     <h4 class="mb-3">{{ $component['images'][5]['image_title'] }}</h4>
