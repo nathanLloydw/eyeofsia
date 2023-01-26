@@ -9,7 +9,7 @@
         @foreach($component['features'] as $feature)
             <div class="w-full md:w-1/3 grow py-4 md:p-4 md:py-0">
 
-                <img class="cursor-pointer" src="{{$feature['feature_image']->url}}">
+                <img class="cursor-pointer object-cover md:h-[550px] m-auto" src="{{$feature['feature_image']->url}}">
                 <div class="text-center">
                     <h4 class="pt-8">{{$feature['feature_name']}}</h4>
                     <a class="block mt-8 text-sm bg-black hover:bg-primary px-6 py-4 rounded-full w-max text-white m-auto" href="{{$feature['feature_button_link']}}">{{ $feature['feature_button_text'] }}</a>
