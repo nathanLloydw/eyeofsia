@@ -129,7 +129,7 @@ sections:
           instructions_position: above
           visibility: visible
           always_save: false
-          width: 33
+          width: 25
           max_files: 1
       -
         handle: footer_sticky
@@ -142,7 +142,7 @@ sections:
           instructions_position: above
           visibility: visible
           always_save: false
-          width: 33
+          width: 25
       -
         handle: show_footer_navigation
         field:
@@ -154,4 +154,16 @@ sections:
           instructions_position: above
           visibility: visible
           always_save: false
-          width: 33
+          width: 25
+      -
+        handle: funky_footer
+        field:
+          default: false
+          display: 'Funky Footer'
+          type: toggle
+          icon: toggle
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+          width: 25
