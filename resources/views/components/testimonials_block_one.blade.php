@@ -6,7 +6,7 @@
 
         @foreach($component['testimonials'] as $testimonial)
 
-            <div class="p-4 w-full md:w-1/2 grow">
+            <div class="py-4 md:p-4 w-full md:w-1/2 grow">
                 <div class="h-full bg-support p-8 rounded">
                     @includeIf('SVGs.quote')
                     <p class="mb-6">{{ $testimonial['testimonial'] }}</p>
