@@ -1,28 +1,35 @@
 title: 'Navigation Settings'
 data:
+  company_logo: untitled-1.png
   links_direction: right
   sticky: true
-  shrinkable: false
+  shrinkable: true
   nav_controlled_header: true
   navigation_hero:
     -
+      id: 1fz0ztDV
       image:
         - p1100706-2.jpg
       type: navigation_hero_image
       enabled: true
     -
+      id: cXHHELo8
       image:
-        - ayadi-ghaith-dbxdqkfspni-unsplash.jpg
+        - journey-food-(20-of-43).jpg
       type: navigation_hero_image
       enabled: true
     -
+      id: 7nv4p5cY
       image:
         - lucia-garo-suxtl0pzwwm-unsplash.jpg
       type: navigation_hero_image
       enabled: true
     -
+      id: 5FDICRd5
       image:
         - mario-esposito-8pympjx4288-unsplash.jpg
       type: navigation_hero_image
       enabled: true
   footer_sticky: false
+  show_footer_navigation: false
+  funky_footer: true
