@@ -7,6 +7,7 @@ import '../css/app.css';
 import './scripts/navigation_menu';
 import './scripts/navigation_shrink';
 import './scripts/reactive_navigation_hero';
+import './scripts/gallery_block_three';
 
 const app = createApp({})
 
